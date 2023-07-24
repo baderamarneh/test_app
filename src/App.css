@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  font-family: Noto Kufi Arabic;
+  color: white;
+}
+
+
+
+
+
+.nav-link {
+  color: white;
+  margin-right: 56px;
+  color: #FCFCFC;
+  font-family: Noto Kufi Arabic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.slash{
+width: 14px;
+height: 0px;
+stroke-width: 1px;
+stroke: #FCFCFC;
+opacity: 0.6000000238418579;
+margin-right: 32px;
+margin-left: 32px;
+}
+.slash2{
+  width: 20px;
+  height: 10px;
+  transform: rotate(90deg);
+  color: #FCFCFC;
+ font-weight: bolder;
+
+  margin-right: 32px;
+  margin-left: 32px;
+  }
+ /* PlayerVideo.css */
+ .player-container {
+  height: 100%; /* Set the container to take up full screen height */
+}
+
+ .player-wrapper {
+  position: relative;
+ 
+  border-radius: 5px;
+}
+
+.Player{
+ 
+    position: absolute;
+   
+    border-radius: 24px;
+ 
+    overflow: hidden;
+    
+}
+
+.card-position{
+position: absolute;
+top: 100;
+border-radius: 20px;
+margin-top: 50px;
+
+
+}
+@media (max-width: 1210px) {
+  .card-position {
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#000025;
+  }
+}
+@media (max-width: 1210px) {
+  .bg-k7l {
+   
+    background:#000025 !important;
+  }
+}
